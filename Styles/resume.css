@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/Portfolio/Images/Background.png);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 60px;
+
+}
+
+
+.links {
+    display: flex;
+    gap: 98px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.links a i {
+    margin-right: 10px;
+}
+
+.beige {
+    color: #D8D1BD;
+
+}
+
+.gray {
+    color: #404040
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.sectionresume{
+    margin:0 10% 0 10%;
+}
+
+.buttonspage2{
+    display: inline-block;
+    justify-content: center;
+    text-align:center;
+    font-size: 24px;
+    padding: 10px;
+    width: 205px;
+    color: white;
+    background-color: #65806D;
+    border-radius: 8px;
+    font-size: 24px;
+    user-select:none;
+    cursor:pointer;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.buttonspage2:hover{
+    background-color: #95B473;
+    transition: background 1s;
+    
+}
+
+.sectionbuttom{
+    display: flex;
+    justify-content: center;
+    margin:7%;
+    
+}

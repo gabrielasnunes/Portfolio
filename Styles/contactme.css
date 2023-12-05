@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/Portfolio/Images/Background.png);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 60px;
+
+}
+
+.links {
+    display: flex;
+    gap: 98px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.links a i {
+    margin-right: 10px;
+}
+
+.beige {
+    color: #D8D1BD;
+
+}
+
+.gray {
+    color: #404040
+}
+
+.inlineblock{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    
+}
+
+.buttons{
+    display:flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 10px;
+    width: 205px;
+    color: white;
+    background-color: #65806D;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 50px 500px 50px 500px;    
+}
+
+.buttons:hover{
+    background-color: #95B473;
+    transition: background 1s;
+}
+
+div ul li {
+    list-style: none;
+    padding: 30px;
+}
+
+.fonts{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: black;    
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Portfolio/Images/Rectangleultm.png");
+    height: 385px;
+    width: 480px;
+    color: #D8D1BD;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover; 
+ 
+  }
+
+  .test ul li span{
+    margin-right: 20px;
+  }
+
+  #fointcolor {
+    text-align: center;
+    gap: 50px;
+    color:#D8D1BD;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+  }

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/Portfolio/Images/Background.png);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 60px;
+
+}
+
+
+.links {
+    display: flex;
+    gap: 98px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.links a i {
+    margin-right: 10px;
+}
+
+.beige {
+    color: #D8D1BD;
+
+}
+
+
+
+.gray {
+    color: #404040
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.button5 {
+    color:#65806D;
+    text-align:center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-left: 45%;
+    
+  
+}
+
+.button6 {
+    color:#ffff;
+    text-align:center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-left: 45%;
+    background-color: #65806D; 
+   
+    
+  
+}
+
+.beige1{
+    color:#D8D1BD;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+button {
+    height: 55px;
+    width: 135px;
+    border-radius: 8px;
+    border: 4px solid #65806D;
+    background-color: #ffff;
+    margin: 20px;
+}
+
+
+#largura{
+    width:275px;
+    margin-left:40%;
+}

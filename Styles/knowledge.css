@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/Portfolio/Images/Background.png);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 60px;
+
+}
+
+
+.links {
+    display: flex;
+    gap: 98px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.links a i {
+    margin-right: 10px;
+}
+
+.beige {
+    color: #D8D1BD;
+
+}
+
+
+.gray {
+    color: #404040
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+div ul li {
+    list-style: none;
+}
+
+.buttonspage2{
+    display: inline-block;
+    justify-content: center;
+    text-align:center;
+    font-size: 24px;
+    padding: 10px;
+    width: 205px;
+    color: white;
+    background-color: #65806D;
+    border-radius: 8px;
+    font-size: 24px;
+    user-select:none;
+    cursor:pointer;
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.buttonspage2:hover{
+    background-color: #95B473;
+    transition: background 1s;
+    
+}
+
+.sectionbuttom{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+#marginb{
+    margin: 3%;
+    
+}
+
+
+.beige1{
+    color:#D8D1BD;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+
+.container1 {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    border: 10px solid blue;
+    
+}
+
+.textknow{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align:center;
+    margin: 20px 100px 20px 100px;
+    
+}
+
+
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Portfolio/Images/Rectangle.png");
+    height: 426px;
+    width: 731px;
+    color: #D8D1BD;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+  }
+
+  .test4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/Portfolio/Images/Rectangle2.png");
+    height: 426px;
+    width: 731px;
+    color: #0f0c04;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #know{
+    text-align: center;
+    gap: 50px;
+    
+  }
+
+  .green{
+    color: #65806D
+  }
