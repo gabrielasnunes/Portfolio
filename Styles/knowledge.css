@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/Portfolio/Images/Background.png);
+    background-image: url(/Images/Background.png);
     background-size: cover;
 }
 
@@ -124,7 +124,7 @@ div ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Portfolio/Images/Rectangle.png");
+    background-image: url("/Images/Rectangle.png");
     height: 426px;
     width: 731px;
     color: #D8D1BD;
@@ -138,7 +138,7 @@ div ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Portfolio/Images/Rectangle2.png");
+    background-image: url("/Images/Rectangle2.png");
     height: 426px;
     width: 731px;
     color: #0f0c04;

@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/Portfolio/Images/Background.png);
+    background-image: url(/Images/Background.png);
     background-size: cover;
 }
 
@@ -87,7 +87,7 @@ div ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Portfolio/Images/Rectangleultm.png");
+    background-image: url("/Images/Rectangleultm.png");
     height: 385px;
     width: 480px;
     color: #D8D1BD;
