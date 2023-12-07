@@ -24,10 +24,19 @@
         </div>
 
         <nav class="links">
-            <a href="/index.html" class="gray"><i class="fa-solid fa-house" style="color: #000000;"></i>Home</a>
-            <a href="/about-me.html" class="beige"><i class="fa-solid fa-user" style="color: #000000;"></i>About Me</a>
-            <a href="/contactme.html" class="beige"><i class="fa-solid fa-message" style="color: #000000;"></i>Contact
-                Me</a>
+            <a href="/index.html" class="beigeclick"><i class="fa-solid fa-house" style="color: #000000;"></i>Home</a>
+           
+           <div class="dropdown">
+                <ul><a href="#" class="beigeclick"><i class="fa-solid fa-user" style="color: #000000;"></i>About Me</a></ul>
+                <div class="dropdown-content">
+                    <li><a href="/resume.html">Resume</a></li>
+                    <li><a href="/knowledge.html">Knowledge</a></li>
+                    <li><a href="/experience.html">Experience</a></li>
+                </ul>
+                </div>
+           </div>
+           
+            <a href="/contactme.html" class="beigeclick"><i class="fa-solid fa-message" style="color: #000000;"></i>Contact Me</a>
         </nav>
     </header>
     <h2 id="fointcolor">Contact me</h2>
@@ -63,7 +72,9 @@
                 <img src="/Images/Maps.png"></a>
         </div>
     </main>
-    <a href="sendemail" class="buttons">Send e-mail</a>
+    <a href="mailto:gabrielassnunes@gmail.com">
+        <button type="button" class="buttons">Send e-mail</button>
+    </a>
 </body>
 
 </html>
